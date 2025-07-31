@@ -58,10 +58,7 @@
             text-transform: uppercase;
             letter-spacing: 2px;
             display: inline-block;
-            background: linear-gradient(to right, var(--gold), var(--light-gold));
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
+            color: var(--gold); /* Changed to solid gold */
         }
 
         .section-title h2::after {
@@ -103,7 +100,7 @@
         .logo {
             font-size: 1.8rem;
             font-weight: 700;
-            color: lightgold;
+            color: var(--gold); /* Changed to solid gold */
             text-decoration: none;
         }
 
@@ -195,10 +192,8 @@
             font-size: 3.5rem;
             line-height: 1.2;
             margin-bottom: 20px;
-            background: linear-gradient(to right, #fff, var(--light-gold));
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
+            color: #fff; /* Changed to solid white */
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
         }
 
         .hero p {
@@ -283,6 +278,7 @@
             border-radius: 30px;
             font-size: 0.9rem;
             border: 1px solid rgba(255, 215, 0, 0.3);
+            color: var(--light-gold);
         }
 
         .about-img {
@@ -363,10 +359,7 @@
             font-size: 2.5rem;
             font-weight: 700;
             margin-bottom: 10px;
-            background: linear-gradient(to right, var(--gold), var(--light-gold));
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
+            color: var(--light-gold); /* Changed to solid light gold */
         }
 
         .stat-label {
@@ -525,6 +518,7 @@
         .tool-name {
             font-size: 1.5rem;
             margin-bottom: 10px;
+            color: var(--light-gold);
         }
 
         .tool-level {
@@ -563,6 +557,7 @@
             display: block;
             margin-bottom: 8px;
             font-weight: 500;
+            color: var(--light-gold);
         }
 
         .form-control {
@@ -662,10 +657,7 @@
         .footer-logo {
             font-size: 2rem;
             font-weight: 700;
-            background: linear-gradient(to right, var(--gold), var(--light-gold));
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
+            color: var(--gold); /* Changed to solid gold */
             margin-bottom: 20px;
         }
 
@@ -858,7 +850,6 @@
                 <a href="#portfolio" class="cta-btn">View Portfolio</a>
             </div>
         </div>
-        
     </section>
 
     <!-- About Section -->
@@ -882,7 +873,7 @@
                     </div>
                 </div>
                 <div class="about-img">
-                    <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076533_1280.jpg" alt="Android Development" class="android-logo">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Android Development" class="android-logo">
                 </div>
             </div>
         </div>
